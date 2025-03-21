@@ -1,0 +1,34 @@
+# Ignore pastas de build do Maven e outras ferramentas
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Configurações específicas para o STS (Spring Tool Suite)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# Arquivos de configuração da IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+
+# Arquivos de configuração do NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Arquivos de configuração do VS Code
+.vscode/
+
